@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'vuepress gitalk',
   base: '/vuepress-plugin-gitalk/',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
@@ -39,10 +39,6 @@ module.exports = {
         link: '/guide/',
       },
       {
-        text: 'Config',
-        link: '/config/',
-      },
-      {
         text: 'VuePress',
         link: 'https://v1.vuepress.vuejs.org',
       },
@@ -52,7 +48,7 @@ module.exports = {
         {
           title: 'Guide',
           collapsable: false,
-          children: ['', 'using-vue'],
+          children: [''],
         },
       ],
     },
@@ -68,7 +64,7 @@ module.exports = {
         gitalkConfig: {
           clientID: 'f5e984a2a3997e75b5eb',
           clientSecret: 'd5622db390c540dd11b148f6437559ddbfc5b0e5',
-          repo: 'https://github.com/xxholly32/vuepress-plugin-gitalk',
+          repo: 'vuepress-plugin-gitalk',
           owner: 'xxholly32',
           admin: ['xxholly32'],
           // id: location.pathname, // Ensure uniqueness and length less than 50

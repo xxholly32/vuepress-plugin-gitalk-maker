@@ -5,7 +5,7 @@ import './gitalk.styl';
 function renderGitalk(isRender, frontmatter) {
   const gitalk = new Gitalk(
     Object.assign({}, GITALK, {
-      id: frontmatter ? frontmatter.gitalkId : 'null',
+      id: location.pathname,
     }),
   );
   isRender && gitalk.render('gitalk-container');

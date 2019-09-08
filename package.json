@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-gitalk",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "vuepress gitalk",
   "main": "index.js",
   "authors": {
@@ -10,7 +10,8 @@
   "repository": "/vuepress-plugin-gitalk",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
   },
   "license": "MIT",
   "devDependencies": {
