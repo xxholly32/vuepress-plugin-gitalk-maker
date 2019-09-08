@@ -39,8 +39,8 @@ module.exports = {
         link: '/guide/',
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org',
+        text: 'Github',
+        link: 'https://github.com/xxholly32/vuepress-plugin-gitalk',
       },
     ],
     sidebar: {
