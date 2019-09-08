@@ -2,7 +2,7 @@
   "name": "vuepress-plugin-gitalk",
   "version": "0.1.0",
   "description": "vuepress gitalk",
-  "main": "index.js",
+  "main": "libs/index.js",
   "authors": {
     "name": "xiangxiao3",
     "email": "xxholly32@163.com"
