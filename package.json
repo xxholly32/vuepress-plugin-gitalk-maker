@@ -1,0 +1,24 @@
+{
+  "name": "vuepress-plugin-gitalk",
+  "version": "0.0.1",
+  "description": "vuepress gitalk",
+  "main": "index.js",
+  "authors": {
+    "name": "xiangxiao3",
+    "email": "xxholly32@163.com"
+  },
+  "repository": "/vuepress-plugin-gitalk",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.0.0",
+    "@vuepress/plugin-medium-zoom": "^1.0.0",
+    "vuepress": "^1.0.0"
+  },
+  "dependencies": {
+    "gitalk": "^1.5.0"
+  }
+}
