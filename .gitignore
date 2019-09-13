@@ -11,3 +11,4 @@ public
 .basement
 config.local.js
 basement_dist
+gitalkconfig.js

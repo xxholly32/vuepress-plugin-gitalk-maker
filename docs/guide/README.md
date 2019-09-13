@@ -18,7 +18,7 @@ yarn add vuepress-plugin-gitalk-maker
 module.exports = {
   plugins: [
     [
-      'gitalk',
+      'gitalk-maker',
       {
         gitalkConfig: {
           clientID: 'clientID',

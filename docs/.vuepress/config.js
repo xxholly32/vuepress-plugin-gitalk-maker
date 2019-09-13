@@ -1,4 +1,5 @@
 const { description } = require('../../package');
+const { clientID, clientSecret } = require('../../gitalkconfig');
 
 module.exports = {
   /**
@@ -62,8 +63,8 @@ module.exports = {
       require('../../libs'),
       {
         gitalkConfig: {
-          clientID: 'f5e984a2a3997e75b5eb',
-          clientSecret: 'd5622db390c540dd11b148f6437559ddbfc5b0e5',
+          clientID,
+          clientSecret,
           repo: 'vuepress-plugin-gitalk-maker',
           owner: 'xxholly32',
           admin: ['xxholly32'],
