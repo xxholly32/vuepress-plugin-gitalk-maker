@@ -1,13 +1,13 @@
-# vuepress-plugin-gitalk
+# vuepress-plugin-gitalk-maker
 
-`vuepress-plugin-gitalk` 是基于 [vuepress](https://v1.vuepress.vuejs.org/zh/) 的评论功能，数据源来自 github 的 issues。底层基于 [gitalk](https://github.com/gitalk/gitalk)。
+`vuepress-plugin-gitalk-maker` 是基于 [vuepress](https://v1.vuepress.vuejs.org/zh/) 的评论功能，数据源来自 github 的 issues。底层基于 [gitalk](https://github.com/gitalk/gitalk)。
 
 ## 用法
 
 ### 安装
 
 ```js
-yarn add vuepress-plugin-gitalk
+yarn add vuepress-plugin-gitalk-maker
 ```
 
 ### 添加到`config.js`
@@ -21,7 +21,7 @@ module.exports = {
         gitalkConfig: {
           clientID: 'clientID',
           clientSecret: 'clientSecret',
-          repo: 'vuepress-plugin-gitalk',
+          repo: 'vuepress-plugin-gitalk-maker',
           owner: 'xxholly32',
           admin: ['xxholly32'],
           // id: location.pathname, // 无法配置默认用 location.pathname

@@ -5,7 +5,7 @@ module.exports = {
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
   title: 'vuepress gitalk',
-  base: '/vuepress-plugin-gitalk/',
+  base: '/vuepress-plugin-gitalk-maker-maker/',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -40,7 +40,7 @@ module.exports = {
       },
       {
         text: 'Github',
-        link: 'https://github.com/xxholly32/vuepress-plugin-gitalk',
+        link: 'https://github.com/xxholly32/vuepress-plugin-gitalk-maker',
       },
     ],
     sidebar: {
@@ -64,7 +64,7 @@ module.exports = {
         gitalkConfig: {
           clientID: 'f5e984a2a3997e75b5eb',
           clientSecret: 'd5622db390c540dd11b148f6437559ddbfc5b0e5',
-          repo: 'vuepress-plugin-gitalk',
+          repo: 'vuepress-plugin-gitalk-maker',
           owner: 'xxholly32',
           admin: ['xxholly32'],
           // id: location.pathname, // Ensure uniqueness and length less than 50

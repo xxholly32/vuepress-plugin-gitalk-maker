@@ -1,5 +1,5 @@
 {
-  "name": "vuepress-plugin-gitalk",
+  "name": "vuepress-plugin-gitalk-maker",
   "version": "0.1.0",
   "description": "vuepress gitalk",
   "main": "libs/index.js",
@@ -7,7 +7,7 @@
     "name": "xiangxiao3",
     "email": "xxholly32@163.com"
   },
-  "repository": "/vuepress-plugin-gitalk",
+  "repository": "/vuepress-plugin-gitalk-maker",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
