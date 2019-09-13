@@ -5,7 +5,7 @@ module.exports = {
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
   title: 'vuepress gitalk',
-  base: '/vuepress-plugin-gitalk-maker-maker/',
+  base: '/vuepress-plugin-gitalk-maker/',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
